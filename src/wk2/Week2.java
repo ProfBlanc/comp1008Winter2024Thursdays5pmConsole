@@ -1,5 +1,6 @@
 package wk2;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Week2 {
@@ -9,7 +10,18 @@ public class Week2 {
 public static void main(String[] args) {
 
    // workingWithInputOutputAndDataTypes();
-    task1();
+    //task1();
+    example3();
+}
+static void example3(){
+
+    Random random = new Random();
+    for(int i = 0; i < 3; i++) {
+        int randomNumber1 = random.nextInt(100); // 0-99
+        int randomNumber2 = random.nextInt(5, 21);  //5-20
+
+        System.out.println(randomNumber1 < randomNumber2);
+    }
 }
 static void workingWithInputOutputAndDataTypes(){
 
@@ -114,7 +126,36 @@ static void task1(){
             grandTotal
             );
 }
+static void example2(){
 
+    /*
+            Ask the user to two numbers
+            determine if second number is greater than first number
+                if so, count from num1 to num2 (1   2   3   4   5)
+                        count from num2 to num1 (5  4   3   2   10
+                if not, output error message to user
+     */
+    Scanner input = new Scanner(System.in);
+    System.out.println("Enter a number");
+    int num1 = input.nextInt();
+    System.out.printf("Enter a number greater than %d%n", num1);
+    int num2 = input.nextInt();
+    boolean result = num1 < num2;
+    if(!result)
+        System.out.println("Sorry, you did not input correct values");
+    else{
+        System.out.printf("Counting from %d to %d%n", num1, num2);
+        for(int i = num1 ; i <= num2; i++ ){
+            System.out.println(i);
+        }
+        System.out.println("-".repeat(20));
+        System.out.printf("Counting from %d to %d%n", num2, num1);
+
+        for(int i = num2; i >= num1; i--){
+            System.out.println(i);
+        }
+    }
+}
 
     // ask the user to guess a number between 1 and 10
     // limit their attempts to 3 attempts
