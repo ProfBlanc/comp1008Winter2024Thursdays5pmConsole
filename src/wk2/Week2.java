@@ -8,7 +8,8 @@ public class Week2 {
   //psvm + tab
 public static void main(String[] args) {
 
-    workingWithInputOutputAndDataTypes();
+   // workingWithInputOutputAndDataTypes();
+    task1();
 }
 static void workingWithInputOutputAndDataTypes(){
 
@@ -71,6 +72,47 @@ static void example1(){
     //sout + tab
     System.out.println("Hello there!");
 
+}
+
+static void task1(){
+
+    Scanner input = new Scanner(System.in);
+    double distanceRate = 1.7;
+    double weightRate = 20;
+
+
+    System.out.println("I am a transporter");
+    System.out.println("Enter name");
+    String name = input.nextLine();
+    System.out.println("Enter the amount of metal you want to transport");
+    double amount = input.nextDouble();
+    System.out.println("Enter the distance");
+    double distance = input.nextDouble();
+
+    double priceWeight = amount * weightRate;
+    double priceDistance = distance * distanceRate;
+    double subTotal = priceDistance + priceWeight;
+    double tax = subTotal * 0.13;
+    double grandTotal = subTotal + tax;
+
+    /*
+            %symbol
+                %s      string
+                %d      digit (whole number)
+                %f      float (double/fload)
+                %n      new line char
+     */
+    System.out.printf("Hello %s. You entered " +
+            "%f as distance and %.1f as weight. " +
+            "The price for distance is %.2f. " +
+            "The price for weight is %.0f. " +
+            "The sub total is %.2f. " +
+            "The tax is %.2f. " +
+            "The grand total is %.2f",
+            name, distance, amount,
+            priceDistance, priceWeight, subTotal, tax,
+            grandTotal
+            );
 }
 
 
