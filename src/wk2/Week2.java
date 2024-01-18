@@ -50,18 +50,15 @@ static void workingWithInputOutputAndDataTypes(){
         You are a transporter.
         Ask user for a name
         You will ask the user how many kg of metal they want to transport.
-        You will ask the user the distance between them and their distination
-        Gas price is $1.60. You charge a surplace of 10 cents.
-        Your charge per kg of transportation is $20/kg.
-
+        You will ask the user the distance between them and their destination
+        Gas price is $1.60. You charge a surcharge of 10 cents.
+        You charge per kg of transportation is $20/kg.
+        You charge gas price + surcharge per kilometer
         Greet the user and prepare them an invoice
 
         NAME
-
         Transporter Rate                    KG requested
-
         Distance Charge                     Distance Requested
-
         Subtotal                            Tax
         Grand Total
 
@@ -75,4 +72,12 @@ static void example1(){
     System.out.println("Hello there!");
 
 }
+
+
+    // ask the user to guess a number between 1 and 10
+    // limit their attempts to 3 attempts
+    // on each attempt, if incorrect. Hint: higher or lower
+    // if correct, congratulate user
+    // if user does not correctly guess number, tell them to study more
+
 }
