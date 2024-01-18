@@ -1,0 +1,49 @@
+                        C#                      Java
+
+folder/organization     namespace               package
+import a tool/class     using                   import
+
+naming conventions
+
+variables               camelCase               camelCase
+methods                 PascalCase              camelCase
+classes                 PascalCase              PascalCase
+
+Input                   Console.ReadLine()      Scanner object => System.in
+                                                various methods of scanner obj
+
+Output                  Console.Write/WriteLine() System.out.print/println()
+
+data types
+                        float              float
+                        string              String
+                        int                 int
+                        bool                boolean
+                        double              double
+                        short               short
+                        byte                byte
+                        uint
+                        ushort
+                        sbtye
+                        char
+                        long                long
+
+main method?
+
+psvm
+
+
+
+
+
+
+
+Which data type should you use?
+
+name                                String
+age                                 int     byte
+initial of your first name          char
+your height in cm                   int/short
+your weight in kg                   float/double
+whether you like java               boolean
+
