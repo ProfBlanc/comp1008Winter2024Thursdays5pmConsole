@@ -1,0 +1,9 @@
+Task 1
+Create a class named Laptop
+    Give the laptop 3 attributes
+    Give the laptop 1 method that evaluated 1 or more attributes
+
+Task 2
+Create a Laptop object
+    Output one attribute
+    Use one method

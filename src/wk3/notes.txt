@@ -1,0 +1,16 @@
+Class
+    a blueprint, template to follow
+    outlines
+        attributes aka characters aka instance variables
+            variables declared in the class
+
+        actions aka bahaviors aka methods/functions
+            functions that evaluate one or many attributes
+
+
+Goal of creating a class is
+    (re)produce an object thats follows the guideline
+
+encapsulation
+    only gonna present/use/outline what we need to accomplish the task
+    hiding data

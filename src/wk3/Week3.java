@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Week3 {
 
     public static void main(String[] args) {
-        guessingGame();
-
+       // guessingGame();
+        example1();
     }
 
     static void guessingGame(){
@@ -49,7 +49,15 @@ public class Week3 {
         }
 
     }
-    static void example1(){}
+    static void example1(){
+
+        Car car = new Car();
+        car.move();
+        System.out.println(car.currentSpeed);
+        car.move(50);
+        System.out.println(car.currentSpeed);
+
+    }
     static void example2(){}
     static void example3(){}
     static void example4(){}
