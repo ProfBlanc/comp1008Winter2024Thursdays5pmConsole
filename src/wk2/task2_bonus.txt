@@ -1,0 +1,5 @@
+You are creating an Addition Quiz application.
+Ask the user how many addition questions they want to answer. Only accept values between 5 and 10.
+Ask the user to answer addition questions where the operands are between 2 and 4 digits
+Give the user feedback of Correct or Incorrect on each question.
+At the end of the quiz, give the student a score and a percentage. E.G. 3/5 (60%)
