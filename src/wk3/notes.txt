@@ -14,3 +14,28 @@ Goal of creating a class is
 encapsulation
     only gonna present/use/outline what we need to accomplish the task
     hiding data
+
+creating object = instantiate
+
+constructor = special method with no return data type. Called once, new Class()
+              has same name of class
+
+  enum: enumerable: create a drop-down list of options to limit which values
+  a user can enter
+
+  // two parts
+  // creating the list of possibilities
+  // create an instance variable that holds ONE of the values
+
+
+
+  4 access levels
+    public      anyone anywhere can access
+    private     only accessible inside class
+    protected   only accessible inside package
+    default/package-private   ^
+
+
+getter/setter
+accessor/mutator
+    provide access to an other inaccessible instance variable
