@@ -1,0 +1,29 @@
+PizzaOrder
+    user:
+        pizza size
+            personal, small, medium, large, extra large
+                will generate a number of slice value
+        select the toppings
+            toppings will be limited to X amount of toppings decided by you
+    you, programmer
+        generate a price
+            pizza size, number of toppings
+        allow a discount for
+            students & elderly
+
+    What are the instance variables that you need to create?
+        pizzaSize, slices, toppings, price, discount, numOfToppings
+    Create the instance variables from above
+
+
+Going to create a Student class
+    Name: anything
+    age: 0-120
+    gpa: 1-4
+    prizes: dean list, best dressed, funnies => collection of values
+    status: full tie or part time
+
+    document the class, 2 methods, 2 instance variables
+    preset Student configuration
+        Mature Student => age >= 30
+        Honor Roll Student => gpa 3.5+
