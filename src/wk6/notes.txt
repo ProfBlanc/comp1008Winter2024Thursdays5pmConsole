@@ -1,0 +1,9 @@
+ArrayList
+    dynamic collection of objects
+        A series of shortcuts that point to real data
+            real data = object created
+    only accept reference data types
+        int, double, short, byte, boolean, char
+        Integer, Double, Short, Byte, Boolean, Character
+    a capacity => think waterbottles
+        dynamic. if surpass capacity => increases
