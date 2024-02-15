@@ -7,3 +7,9 @@ ArrayList
         Integer, Double, Short, Byte, Boolean, Character
     a capacity => think waterbottles
         dynamic. if surpass capacity => increases
+
+Car class
+    Color: only 3 colors
+    number of doors: 2, 4, 5
+    speed: 0-400
+    transmission type: manual, auto, cvt
