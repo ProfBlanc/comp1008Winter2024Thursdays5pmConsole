@@ -73,10 +73,10 @@ public class Car {
         this.transmission = transmission;
     }
     public void setTransmission(String transmission){
-        this.transmission = switch (transmission.toLowerCase()){
 
+        this.transmission = switch (transmission.toLowerCase()){
             case "manual" -> TransmissionType.MANUAL;
-            case "cvt"-> TransmissionType.CVT;
+            case "cvt" -> TransmissionType.CVT;
             default -> TransmissionType.AUTO;
         };
     }

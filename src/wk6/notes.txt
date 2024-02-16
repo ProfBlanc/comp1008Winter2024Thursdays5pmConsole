@@ -13,3 +13,22 @@ Car class
     number of doors: 2, 4, 5
     speed: 0-400
     transmission type: manual, auto, cvt
+
+Unit Testing?
+    Testing the output of a method
+        process that is measurable
+    of expected behaviour
+    resulted behaviour
+
+
+Create the following test cases
+    using the default constructor
+        Test
+            speed = 0       assertEquals
+            doors = 2       assertEquals
+            Car object is not null  assertNotNull
+
+Create a paramaterized test
+    test the setSpeed method
+        test 5 invalid values: < 0 || > 400
+18:50
