@@ -1,0 +1,23 @@
+File Manipulation
+    change files and/or folders in the File System
+        Windows, Mac, Linux
+    data can persist (can be saved)
+        database
+        files and folders * today's topic
+
+packages
+    java.io
+    java.nio
+classes
+    Path
+        pointer to the location of a file OR folder
+        Can create object
+    File
+        working with ONE specific file or folder
+        Can create object
+    Files
+        many static methods used for CRUD operations
+            C   Create
+            R   Read
+            U   Update/Edit
+            D   Delete

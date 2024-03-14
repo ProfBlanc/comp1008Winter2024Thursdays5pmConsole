@@ -1,0 +1,23 @@
+Student-School-Course-Grades-Organizer
+
+Phase 1
+Ask the user for a year
+Ask the user for a semester
+Ask the user how many courses they have
+
+Create a folder structure in wk9
+    wk9/{year}/{semester}
+
+In a loop
+    Ask the user for the course code of each course that they have
+    for the {year}/{semester}
+    Create a coursecode folder in the path
+        wk9/{year}/{semester}/{coursecode}
+
+Then ask the user for their marks for assignment 1 and mid-term for EACH course in the semester
+    Create a file
+        assignment.txt
+        mid-term.txt
+            in each course code sub-folder
+
+    Content: marks
