@@ -8,6 +8,7 @@ Ask the user how many courses they have
 Create a folder structure in wk9
     wk9/{year}/{semester}
 
+Phase 2
 In a loop
     Ask the user for the course code of each course that they have
     for the {year}/{semester}
