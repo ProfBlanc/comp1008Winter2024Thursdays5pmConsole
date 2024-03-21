@@ -40,3 +40,109 @@ General                 Specific
 Overriding
     Create a brand new implementation of a method
         out with the old and in with the new
+
+
+
+Polymorphism
+    Poly
+        many/multiple
+    Morphism: body/form
+
+Polymorphism: Something that has many versions/forms/instances/variations
+    Overriding              replacing the body/behaviour: parent-child classes
+    Overloading             varying:  within class
+
+
+Abstract Class
+Interface
+
+    Both dedicated component classes
+    Cannot be instantiated by itsself
+
+What's the difference
+Internal component              Abstract Class
+External component              Interface
+
+
+Abstract Class
+    dedicated super class
+    has the same features of a Concrete class (class that can be instantiated)
+    may have an abstract method
+        method with no method body. with no default implementation
+    incomplete class
+
+Interface
+    more limited than Abstract class
+        allowed to include abstract methods & constants
+    a list/series of requirements
+    only public accessibility level
+    handle user-interaction
+
+
+Game part 1:
+Me: state an object
+You: should be Abstract class, Concrete Class, Interface
+
+Q1) Does object exist by itself?
+        Yes: Concrete
+        No: ask 2nd question
+
+Q2) Is object an internal component or external component
+    Internal: Abstract
+    External: Interface
+
+
+Hair        I
+Hand        I
+Heart       A
+
+House                       C
+Apartment Room (Apt 101)    A
+Door                        I
+
+Car                         C
+List abstract components of Car
+                Engine
+                Suspension
+List interface  components of Car
+    Steering Wheel
+    Door
+    Tires
+
+Game part 2:
+
+Me: State a feature
+You: if feature is possible in C        A       I
+
+
+constructors        CA
+constants           CIA
+instance vars       CA
+abstract method     AI
+regular method      CA
+
+
+A class can implement many interface
+but only extend 1 other class
+
+
+Human
+Skeleton
+Heart
+Hair
+Hand
+
+Concrete	Abstract	Interface
+Human		Heart		Hair
+		Skeleton	Hand
+
+
+
+
+Human=>	Skeleton=>Heart
+
+class Human extends Skeleton
+
+abstract class Skeleton extends Heart
+
+abstract class Heart

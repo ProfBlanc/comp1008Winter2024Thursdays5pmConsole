@@ -13,8 +13,27 @@ public class Week10 {
         System.out.println(sh2);
 
     }
-    static void example2(){}
+    static void example2(){
+        //super         //sub
+        Animal a1 = new Cat(); // Animal is a Cat
+
+        System.out.println(a1);
+        System.out.println(a1 instanceof Animal);
+
+        System.out.println(a1 instanceof Cat);
+
+        a1.testMethod();
+
+
+    }
+
+    static void example3(){
+
+        //Shape s1 = new Shape();
+        Shape s1 = new Rectangle();
+
+    }
     public static void main(String[] args) {
-        example1();
+        example3();
     }
 }
