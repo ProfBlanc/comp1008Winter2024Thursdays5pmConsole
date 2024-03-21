@@ -1,0 +1,42 @@
+Inheritance
+    Create a class BASED on another class
+        every class inherits Object class
+            default constructor
+            getClass(), equals(), toString(), hashCode()
+    Why use inheritance
+        use previously existing things
+            mehthods
+            instance variables
+            constants (static final instance variable)
+    What is inherited
+        all non-private
+            instance vars
+            methods
+            constants
+            default constructor
+
+    Please note
+        Only default constructor inherited
+        You cannot remove existence of anything
+
+Previous                                    Newer
+
+base class                                  derived class
+parent class                                child class
+super class                                 sub class
+
+Keyword to create a class based on another class is extends
+
+
+Java only supports single-class inheritance
+    You can only inherit from one other class
+
+
+Animal      Cat     Lion
+
+
+General                 Specific
+
+Overriding
+    Create a brand new implementation of a method
+        out with the old and in with the new

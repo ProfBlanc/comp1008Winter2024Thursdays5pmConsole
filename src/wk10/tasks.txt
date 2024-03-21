@@ -1,0 +1,24 @@
+Create a Superhero constructor
+    takes 1 Human object
+    3 superhero instance variables
+    (4 args in total)
+
+In the Superhero Constructor
+    Call the Human constructor & set the 3 super hero instance variables
+    to the passed values
+
+
+*********************
+
+Create Animal
+    2 instance variables: name, legs
+    2 constructors: default, 2-args
+    method: isScary: legs greater than 4
+
+Create Cat based on Animal
+    2 more instance vars: weight, whiskers
+    3 constructors: default, 2-args (from Animal),
+        and 4-args (2 of Animal + 2 of Cat)
+    Override isScary: either legs greater than 4 or weight more than 200
+
+
